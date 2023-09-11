@@ -1,7 +1,7 @@
 ---
 title: "Week 02: COVID Visualization Activity"
 date: "September, 11 2023"
-author: "**`[[`**Your Name**`]]`**"
+author: "**`[[`**Jiawei Sun**`]]`**"
 ---
 
 Today, we'll be working with a data set related to COVID.
@@ -36,6 +36,11 @@ covid_data_count |>
 ```
 
 1. Write code for a plot and describe what you observe?
+```{r}
+ggplot(covid_data_long, aes(x = date, y = count, color = race)) + geom_line()
+```
+
 2. Are there any conclusions you can draw?
+
 3. What were you not able to do due to not having the R knowledge?
 4. What other data would be useful to better understand this data?
