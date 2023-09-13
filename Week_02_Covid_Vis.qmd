@@ -40,9 +40,12 @@ covid_data_count |>
 ggplot(covid_data_long, aes(x = date, y = count, color = race)) + geom_line()
 ```
 The total number of people getting covid is increasing over time.
+
 2. Are there any conclusions you can draw?
 White have the greatest percentage of getting covid.
+
 3. What were you not able to do due to not having the R knowledge?
 Cannot draw the plot with several variables.
+
 4. What other data would be useful to better understand this data?
-Whether they are vacinated.
+Whether they are vaccinated.
